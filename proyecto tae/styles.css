@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+  
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f1d0bf;
+  color: #333;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #eab4c6;
+  padding: 1rem;
+}
+
+nav a {
+	border-radius: 5px;
+	position: fixed;
+	background-color:#f8bbd0;
+  text-decoration: none;
+  color: #880e4f;
+  font-weight: bold;
+}
+,imagen {
+	background-image:
+}
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.imagen {
+	width:200px;
+	height:50px;
+	object-fit: cover;
+}
+.productos {
+  margin-top: 2rem;
+}
+
+.producto {
+  border: 1px solid #efcaca;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f5c8c8;
+}
+
+.precio {
+  color: #d81b60;
+  font-weight: bold;
+}
+
+.membresias {
+  margin-top: 2rem;
+  background: #f5b9cd;
+  padding: 1rem;
+}
+
+.membresia {
+  margin-bottom: 1rem;
+}
+
+.contacto, .comentarios {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #ebc2f1;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+form button {
+  background: #8e24aa;
+  color: #f7dddd;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ce93d8;
+  margin-top: 2rem;
+}
+
+.image-placeholder img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
